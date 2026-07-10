@@ -77,7 +77,7 @@ public:
         return total_water;*/
 
         //Approach 3: Better in terms of time complexity
-        vector<int> left;
+        /*vector<int> left;
         int n=height.size();
         vector<int> right(n,0);
 
@@ -107,6 +107,31 @@ public:
                 total_water+=water_stored;
             }
         }
+        return total_water;*/
+
+        //Approch 4: Two Pointers (opposite)
+        int l=0;
+        int n=height.size();
+        int r=n-1;
+        int leftmax=0;
+        int rightmax=0;
+        int total_water=0;
+
+        while(l<r){
+            leftmax= max(leftmax, height[l]);
+            rightmax= max(rightmax, height[r]);
+
+            if(leftmax <= rightmax){
+                total_water+= (leftmax-height[l]);
+                l++;
+            }else if(rightmax < leftmax){
+                total_water+= (rightmax-height[r]);
+                r--;
+            }
+        }
         return total_water;
     }
 };
+
+//"Why are you processing the smaller height pointer?"
+/*Water level hamesha chhoti boundary decide karti hai. Agar left wall right wall se chhoti hai, to chahe right wall aur kitni bhi badi ho jaye, current left position par maximum water leftMax hi decide karega. Isliye hum left side ka answer bina future dekhe calculate kar sakte hain. Isi tarah agar right wall chhoti hai, to right side process karte hain.*/
