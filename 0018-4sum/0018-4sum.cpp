@@ -15,7 +15,7 @@ public:
                 int l=n-1;
 
                 while(k<l){
-                    long long sum= (long long)nums[i]+nums[j]+nums[k]+nums[l];
+                    long long sum= (long long)nums[i]+nums[j]+nums[k]+nums[l];  //to avoid buffer overflow
 
                     if(sum<target){
                         k++;
