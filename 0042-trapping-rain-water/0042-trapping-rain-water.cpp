@@ -36,9 +36,9 @@ public:
         return total_water;*/
 
 
-        //Approach 2: 
+        //Approach 2: Better Brute Force Approach
         //-->first step is to alreadyy find the max element of this array
-        int n=height.size();
+        /*int n=height.size();
         int max_e=0;
         int max_idx;
         for(int i=0; i<n; i++){
@@ -72,6 +72,39 @@ public:
 
             if(waterstored>=0){
                 total_water+=waterstored;
+            }
+        }
+        return total_water;*/
+
+        //Approach 3: Better in terms of time complexity
+        vector<int> left;
+        int n=height.size();
+        vector<int> right(n,0);
+
+        //for left vector
+        for(int i=0; i<n; i++){
+            if(i==0){
+                left.push_back(height[i]);
+            }else{
+                left.push_back(max(height[i], left[i-1]));
+            }
+        }
+
+        //for right vector
+        for(int i=n-1; i>=0; i--){
+            if(i==n-1){
+                right[i]=height[i];
+            }else{
+                right[i]= max(height[i], right[i+1]);
+            }
+        }
+        int total_water=0;
+        for(int i=0; i<n; i++){
+            int water_level= min(left[i], right[i]);
+            int water_stored= water_level-height[i];
+
+            if(water_stored>=0){
+                total_water+=water_stored;
             }
         }
         return total_water;
