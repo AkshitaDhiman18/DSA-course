@@ -10,13 +10,13 @@ public:
 
         while(mid<=high){
             if(nums[mid] == 0){
-                if(low != mid){
+                //if(low != mid){
                 swap(nums[mid], nums[low]);
                 low++;
-                }else{
-                    mid++;
-                    low++;
-                }
+                //}else{
+                 mid++;
+                    //low++;
+                //}
             }else if(nums[mid]==2){
                 if(nums[high] !=2){
                 swap(nums[mid], nums[high]);
