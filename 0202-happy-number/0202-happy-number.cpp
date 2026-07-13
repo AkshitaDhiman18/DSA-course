@@ -14,11 +14,11 @@ public:
                 n= n/10;
             }
             n=sum;
+            sum=0;
             if(visited.count(n)){
                 return false;
-            }else {
-                visited.insert(n);
-                sum=0;
+            }else{
+                visited.insert(n);  
             }
         }
         return true;
