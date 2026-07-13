@@ -13,8 +13,8 @@ public:
         }
         return -1;*/
 
-        //Approach 2: using extra space (map)
-        unordered_map<int, int> freq;
+        //Approach 2: using extra space (map) but still not an optimal solution as its take extra space
+        /*unordered_map<int, int> freq;
 
         for(int i: nums){
             freq[i]++;
@@ -25,6 +25,28 @@ public:
                 return it.first;
             }
         }
-        return -1;
+        return -1;*/
+
+        //Approach 3: cycle detection using floyd warshall algo
+        //begining positions of both the pointers
+        int slow=0;
+        int fast=0;
+        
+        //jb tl meeting point h miljata
+        do{
+            slow= nums[slow];   //as slows moves with 1 step
+            fast= nums[nums[fast]];  //and fast moves with 2 steps
+        } while(slow != fast);
+
+        //after the end of this loop we will get the meeting point where both the slow and fast pointers stands
+
+        //set any one pointer to the start(i choose fast ptr)
+        //now both ptrs moves with step 1
+        fast=0;
+        while(slow != fast){
+        slow= nums[slow];
+        fast= nums[fast];
+        }
+        return fast;
     }
 };
