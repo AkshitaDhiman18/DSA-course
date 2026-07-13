@@ -1,8 +1,20 @@
 class Solution {
 public:
-    bool isHappy(int n) {
 
-        unordered_set<int> visited;
+     int sumofsquareofdigits(int x){
+            int sum=0;
+            while(x != 0){
+                int last= x%10;
+                int square= last*last;
+                sum+=square;
+                x= x/10;
+            }
+            return sum;
+        }
+
+    bool isHappy(int n) {
+        //Approach 1: Using visited set(extra space to store every sum for cycle detection)
+        /*unordered_set<int> visited;
         visited.insert(n);
         int sum=0;
 
@@ -21,7 +33,21 @@ public:
                 visited.insert(n);  
             }
         }
-        return true;
+        return true;*/
+
+        //approach 2: cycle detection
+        int slow= n;
+        int fast=n;
+
+        do{
+            slow= sumofsquareofdigits(slow);
+            fast= sumofsquareofdigits(sumofsquareofdigits(fast));
+        } while(slow != fast);
+
+        if(slow == fast && slow == 1){
+            return true;
+        }
+            return false;
     }
 };
 
