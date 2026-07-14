@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        //Approaaach 1: start from top right
         /*int r= matrix.size();
         int c= matrix[0].size();
         int n= r*c;
@@ -25,7 +26,7 @@ public:
             }
         }
         return false;*/
-
+        //Approach 2: start from bottom left
         int r= matrix.size();
         int c= matrix[0].size();
         int n= r*c;
