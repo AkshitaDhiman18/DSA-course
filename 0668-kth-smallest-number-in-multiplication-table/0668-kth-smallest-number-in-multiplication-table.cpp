@@ -1,7 +1,7 @@
 class Solution {
 public:
-
-    int count(int a, int b, int mid){
+//approach 1: exact approach of ques number 378
+    /*int count(int a, int b, int mid){
         int r=1;
         int c=b;
         int count=0;
@@ -15,6 +15,16 @@ public:
 
                r++;
             }
+        }
+        return count;
+    }*/
+
+//approach 2: Using formula
+
+    int count(int m, int n, int mid){
+        int count=0;
+        for(int row=1; row<=m; row++){
+            count+= min(mid/row, n);
         }
         return count;
     }
@@ -38,3 +48,5 @@ public:
         return high;
     }
 };
+
+
