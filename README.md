@@ -11,6 +11,7 @@
 | [0027-remove-element](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
+| [0074-search-a-2d-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
@@ -18,6 +19,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 ## Two Pointers
 |  |
@@ -74,4 +76,8 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
