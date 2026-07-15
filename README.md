@@ -16,6 +16,7 @@
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Binary Search
 |  |
 | ------- |
@@ -24,6 +25,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -85,6 +87,7 @@
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Divide and Conquer
 |  |
 | ------- |
