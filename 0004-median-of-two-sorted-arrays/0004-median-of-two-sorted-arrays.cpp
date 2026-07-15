@@ -47,61 +47,47 @@ public:
         int m= nums1.size();
         int n= nums2.size();
 
-        int x= m+n;
+        int total= m+n; //total size
         int i=0;
         int j=0;
-        int pos1, pos2, poss;
+        int pos1, pos2, poss;  //leftmidpos, rightmidpos, midpos
 
         //for even no of observations
-        pos1= x/2;
-        pos2= (x/2)+1;
+        pos1= total/2;
+        pos2= (total/2)+1;
         //for odd no of observations
-        poss= (x+1)/2;
+        poss= (total+1)/2;
 
         int count=0;
         int val;
-        int f_mid, s_mid, mid;
+        int f_mid=0, s_mid=0, mid=0;  //leftmedian , rightmedian, medianelement
+        double median;
 
-        while(i<m && j<n){
-            if(nums1[i] < nums2[j]){
-                count++;
+        while(i<m || j<n){
+            if(j == n || (i<m && nums1[i] <= nums2[j])){
                 val= nums1[i];
                 i++;
             }else{
-                count++;
                 val= nums2[j];
                 j++;
             }
-
-            if(count == pos1) f_mid= val;
-            if(count == pos2) s_mid=val;
-            if(count == poss) mid= val;
-        }
-
-        while(i< m){
             count++;
-            val= nums1[i];
-            i++;
-            if(count == pos1) f_mid= val;
-            if(count == pos2) s_mid=val;
-            if(count == poss) mid= val;
-        }
 
-        while(j < n){
-            count++;
-            val= nums2[j];
-            j++;
-            if(count == pos1) f_mid= val;
-            if(count == pos2) s_mid=val;
-            if(count == poss) mid= val;
+            if(total % 2 == 0){
+                if(count == pos1) f_mid= val;
+                if(count == pos2){
+                    s_mid= val;
+                median= (double)(f_mid+s_mid)/2;
+                return median;
+                }
+            }else if(total % 2 != 0){
+                if(count == poss){
+                    mid= val;
+                    median= double(mid);
+                    return median;
+                }
+            }
         }
-        
-        double median;
-        if(x%2==0){
-            median= double(f_mid + s_mid)/2;
-        }else{
-            median= double(mid);
-        }
-        return median;
+       return 0.0;
     }
 };
