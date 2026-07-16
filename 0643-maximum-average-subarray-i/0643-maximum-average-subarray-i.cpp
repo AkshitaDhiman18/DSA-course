@@ -4,8 +4,7 @@ public:
         int n=nums.size();
         int l=0;
         int sum=0;
-        double average;
-        double max_avg= INT_MIN;
+        int maxsum=INT_MIN;
 
 
         for(int r=0; r<n; r++){
@@ -17,10 +16,9 @@ public:
             }
 
             if((r-l+1) == k){
-             average= double(sum)/k;
-             max_avg= max(average, max_avg);
+                maxsum= max(maxsum, sum);
             }
         }
-        return max_avg;
+        return double(maxsum)/k;
     }
 };
