@@ -16,8 +16,7 @@ public:
             }
 
             if((r-l+1) == k){
-                int avg= sum/k;
-                if(avg >= threshold){
+                if(sum >= threshold *k){
                     count++;
                 }
             }
