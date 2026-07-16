@@ -44,10 +44,11 @@ public:
             fast= sumofsquareofdigits(sumofsquareofdigits(fast));
         } while(slow != fast);
 
-        if(slow == fast && slow == 1){
+        if(slow == fast && slow == 1){  //meaans sum 1 hogya
             return true;
         }
-            return false;
+            return false; //cycle detect hogi
+            
     }
 };
 
