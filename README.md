@@ -17,6 +17,7 @@
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
+| [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Binary Search
 |  |
@@ -95,4 +96,8 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0004-median-of-two-sorted-arrays) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
