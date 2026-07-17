@@ -15,7 +15,7 @@ public:
                 }
             }
         }
-        vector<vector<int>> ans(st.begin(), st.end()); //return in 2d vectors as already mentioned retur type
+        vector<vector<int>> ans(st.begin(), st.end()); // return in 2d vectors as already mentioned retur type
         return ans;*/
 
 
