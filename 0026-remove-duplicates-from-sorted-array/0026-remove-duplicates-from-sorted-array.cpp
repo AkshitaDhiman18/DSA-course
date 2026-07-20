@@ -3,7 +3,6 @@ public:
     int removeDuplicates(vector<int>& nums) {
 
         //approach 1: Brute force approach
-
         set<int> st;
 
         for(int i:nums){
@@ -19,6 +18,8 @@ public:
         return idx;
     }
 };
+
+//teo pointer approach hai with tc o(n) and sc is o(1)
         /*int n=nums.size();
 
         if(nums.empty()) return 0;
