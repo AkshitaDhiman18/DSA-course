@@ -51,6 +51,7 @@
 | [0075-sort-colors](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0283-move-zeroes) |
@@ -60,6 +61,7 @@
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0125-valid-palindrome) |
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Dynamic Programming
