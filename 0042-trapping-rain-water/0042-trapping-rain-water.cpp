@@ -134,4 +134,4 @@ public:
 };
 
 //"Why are you processing the smaller height pointer?"
-/*Water level hamesha chhoti boundary decide karti hai. Agar left wall right wall se chhoti hai, to chahe right wall aur kitni bhi badi ho jaye, current left position par maximum water leftMax hi decide karega. Isliye hum left side ka answer bina future dekhe calculate kar sakte hain. Isi tarah agar right wall chhoti hai, to right side process karte hain.*/
+/*Water level hamesha chhoti boundary decide karti hai. Agar left wall right wall se chhoti hai, to chahe right wall aur kitni bhi badi ho jaye, current left position par maximum water leftMax hi decide karega. Isliye  hum left side ka answer bina future dekhe calculate kar sakte hain. Isi tarah agar right wall chhoti hai, to right side process karte hain.*/
