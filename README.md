@@ -19,6 +19,7 @@
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0209-minimum-size-subarray-sum) |
+| [0217-contains-duplicate](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0217-contains-duplicate) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
@@ -82,6 +83,7 @@
 | [0018-4sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0217-contains-duplicate) |
 | [0977-squares-of-a-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0977-squares-of-a-sorted-array) |
 ## Stack
 |  |
@@ -95,6 +97,7 @@
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
+| [0217-contains-duplicate](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0217-contains-duplicate) |
 ## Math
 |  |
 | ------- |
