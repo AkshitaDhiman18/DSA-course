@@ -25,6 +25,7 @@
 | [0283-move-zeroes](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
+| [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0977-squares-of-a-sorted-array) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -102,6 +103,7 @@
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0219-contains-duplicate-ii) |
+| [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 ## Math
 |  |
 | ------- |
@@ -129,6 +131,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
+| [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
