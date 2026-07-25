@@ -28,6 +28,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0977-squares-of-a-sorted-array) |
+| [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Binary Search
@@ -41,6 +42,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Two Pointers
 |  |
@@ -133,6 +135,7 @@
 | [0219-contains-duplicate-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -140,4 +143,5 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0209-minimum-size-subarray-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
