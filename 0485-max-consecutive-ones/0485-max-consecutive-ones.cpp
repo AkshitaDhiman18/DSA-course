@@ -27,7 +27,7 @@ public:
         int l=0;
 
         for(r=0; r<n; r++){
-            if(!(nums[r]==1)){
+            if(nums[r]==0){
                 maxno= max(maxno, (r-l));
                 l=r+1;
             }
