@@ -24,6 +24,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
+| [0485-max-consecutive-ones](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0485-max-consecutive-ones) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0977-squares-of-a-sorted-array) |
