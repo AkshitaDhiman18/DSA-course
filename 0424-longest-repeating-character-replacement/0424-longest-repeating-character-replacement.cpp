@@ -25,7 +25,9 @@ public:
         }
       }
       return ans;*/
+      
 
+      //Approach 2: Sliding window
       int n= s.size();
       int l_ptr=0;
       int max_freq=0;
@@ -42,7 +44,7 @@ public:
 
         while((r_ptr-l_ptr+1)-max_freq>k){
             mp[s[l_ptr]]--;
-
+            max_freq=0;
             for(auto it: mp){
                 max_freq= max(max_freq, it.second);
             }
