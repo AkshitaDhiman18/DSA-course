@@ -72,6 +72,7 @@
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Dynamic Programming
@@ -111,6 +112,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Math
 |  |
 | ------- |
@@ -143,6 +145,7 @@
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Prefix Sum
