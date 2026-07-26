@@ -21,6 +21,7 @@ public:
         return ans;*/
 
         //Approach 2:
+        //slidig window + hashmap
         int n= s.size();
         int l=0;
         unordered_map<char, int> mp;
@@ -31,7 +32,7 @@ public:
 
             while(mp.size() == 3){
                 ans += (n - r);
-                
+
                 mp[s[l]]--;
                 if(mp[s[l]] == 0){
                     mp.erase(s[l]);
