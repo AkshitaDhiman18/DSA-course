@@ -27,17 +27,17 @@ public:
       return ans;*/
       
 
-      //Approach 2: Sliding window
+      //Approach 2: Sliding Window with recalculating max_freq
       int n= s.size();
       int l_ptr=0;
-      int max_freq=0;
+      int max_freq;
       int max_len=0;
 
       unordered_map<char, int> mp;
 
       for(int r_ptr=0; r_ptr<n; r_ptr++){
         mp[s[r_ptr]]++;
-
+        max_freq=0;
         for(auto it: mp){
             max_freq= max(max_freq, it.second);
         }
