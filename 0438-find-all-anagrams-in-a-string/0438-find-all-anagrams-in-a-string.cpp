@@ -25,9 +25,9 @@ public:
             st++;
         }
 
-        if((end-st+1)==a){
-            if(map1 == map2) ans.push_back(st);
-        }
+        
+        if(map1 == map2) ans.push_back(st);
+        
        }
        return ans;
     }
