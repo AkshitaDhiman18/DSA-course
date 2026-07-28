@@ -2,6 +2,7 @@ class Solution {
 public:
     
     int almost_count(vector<int> &nums, int goal){
+        if(goal < 0) return 0;
         int n= nums.size();
         int l=0;
         int ans=0;
@@ -25,35 +26,6 @@ public:
         return almost_count(nums, k) - almost_count(nums, k-1);
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         /*unordered_map<int, int> mp;
         mp[0]=1;
