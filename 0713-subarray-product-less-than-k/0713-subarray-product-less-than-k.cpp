@@ -5,6 +5,8 @@ public:
         int l=0;
         int ans=0;
         int product=1;
+
+        if(k<=1) return 0;
         for(int r=0; r<n; r++){
            product*=nums[r];
 
