@@ -28,7 +28,7 @@ public:
       
 
       //Approach 2: Sliding Window with recalculating max_freq
-      int n= s.size();
+      /*int n= s.size();
       int l_ptr=0;
       int max_freq;
       int max_len=0;
@@ -52,6 +52,30 @@ public:
         }
         max_len= max(max_len, (r_ptr-l_ptr+1));
       }
+      return max_len;*/
+
+      //Approach 3: Optimal sliding window abhi pending bd mein smjke krugiiiiiiiiii
+      int n= s.size();
+      int l=0;
+      int max_freq=0;
+      int max_len=0;
+      unordered_map<char, int> mp;
+
+      for(int r=0; r<n; r++){
+        mp[s[r]]++;
+
+        for(auto it: mp){
+            max_freq= max(max_freq, it.second);
+        }
+
+        while((r-l+1)-max_freq>k){
+            mp[s[l]]--;
+            l++;
+        }
+
+        max_len= max(max_len, r-l+1);
+      }
       return max_len;
     }
 };
+      
