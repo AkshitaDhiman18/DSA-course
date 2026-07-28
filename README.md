@@ -31,6 +31,7 @@
 | [0930-binary-subarrays-with-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0930-binary-subarrays-with-sum) |
 | [0977-squares-of-a-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Binary Search
@@ -116,12 +117,14 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Math
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -150,6 +153,7 @@
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -161,4 +165,5 @@
 | [0713-subarray-product-less-than-k](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
