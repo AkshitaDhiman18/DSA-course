@@ -30,3 +30,6 @@ public:
        return false;
     }
 };
+
+//tc= O(n)
+//sc= O(n)
