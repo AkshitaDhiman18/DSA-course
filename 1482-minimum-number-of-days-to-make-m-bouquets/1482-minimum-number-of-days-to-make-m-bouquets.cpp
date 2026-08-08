@@ -1,8 +1,7 @@
 #include <climits>
 class Solution {
 public:
-    //bruteforce approach
-
+    //helper function for both approach
     bool isbloomed(vector<int>& bloomDay, int day, int k, int m){
         int n= bloomDay.size();
         int count = 0;
@@ -46,8 +45,7 @@ public:
             max_day= max(max_day, bloomDay[a]);
         }
 
-
-
+        //bruteforce approach
         /*for(int day= min_day; day <= max_day; day++){
             bool bouquet_made= isbloomed(bloomDay, day, k, m);
 
@@ -55,7 +53,7 @@ public:
                 return day;
             }
         }*/
-
+        //binary search
         int s= min_day;
         int e= max_day;
         int ans=-1;
