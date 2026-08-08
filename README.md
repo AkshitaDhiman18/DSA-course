@@ -37,6 +37,7 @@
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 ## Binary Search
 |  |
 | ------- |
@@ -52,6 +53,7 @@
 | [0875-koko-eating-bananas](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1004-max-consecutive-ones-iii) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 ## Two Pointers
 |  |
 | ------- |
