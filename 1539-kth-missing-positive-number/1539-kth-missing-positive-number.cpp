@@ -15,12 +15,10 @@ public:
         int n= arr.size();
         int max_positive=0;
 
-        for(int i: arr){
-            max_positive+=i;
-        }
+       
         int count=0;
 
-        for(int a=1; a<=INT_MAX; a++){
+        for(int a=1; ; a++){
             bool value= ispresent(arr, a);
 
             if(value == false) count++;
