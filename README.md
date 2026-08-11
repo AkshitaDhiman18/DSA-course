@@ -42,6 +42,7 @@
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1539-kth-missing-positive-number) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1870-minimum-speed-to-arrive-on-time) |
+| [2187-minimum-time-to-complete-trips](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2187-minimum-time-to-complete-trips) |
 ## Binary Search
 |  |
 | ------- |
@@ -62,6 +63,7 @@
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1539-kth-missing-positive-number) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1870-minimum-speed-to-arrive-on-time) |
+| [2187-minimum-time-to-complete-trips](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2187-minimum-time-to-complete-trips) |
 ## Two Pointers
 |  |
 | ------- |
