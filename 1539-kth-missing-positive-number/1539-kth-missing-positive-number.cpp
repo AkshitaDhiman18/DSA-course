@@ -10,14 +10,14 @@ public:
     return false;
    }
     
-
+   
     int findKthPositive(vector<int>& arr, int k) {
         int n= arr.size();
         int max_positive=0;
 
        
         int count=0;
-
+        //bruteforce approach
         for(int a=1; ; a++){
             bool value= ispresent(arr, a);
 
@@ -28,5 +28,7 @@ public:
             }
         }  
         return -1;
+
+        
     }
 };
