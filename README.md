@@ -195,6 +195,7 @@
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
+| [0237-delete-node-in-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0237-delete-node-in-a-linked-list) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
 |  |
