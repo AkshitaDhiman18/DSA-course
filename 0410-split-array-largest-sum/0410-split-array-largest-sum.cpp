@@ -18,7 +18,7 @@ public:
                 }
             }
         }
-
+        //Kyunki agar mid capacity mein array ko 2 subarrays mein split kar sakte hain aur k = 4 hai, toh un subarrays ko further split karke 4 bana sakte hain.
         if(count <= k) return true;
         return false;
 
