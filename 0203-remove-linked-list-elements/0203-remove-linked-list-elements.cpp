@@ -13,11 +13,13 @@
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        if(head == nullptr) return head;
+        if(head == nullptr) return head; //if list is empty
         // Step 1: beginning se matching nodes remove karo
+        //handlings consecutive matching nodes at the beginning of list are handled
         while(head != nullptr && head->val == val) {
             ListNode* temp = head;
             head = head->next;
+            temp->next= nullptr;
             delete temp;
         }
 
@@ -29,6 +31,7 @@ public:
             if(curr->next->val == val) {
                 ListNode* temp = curr->next;
                 curr->next = temp->next;
+                temp->next= nullptr;
                 delete temp;
             }
             else {
@@ -39,3 +42,5 @@ public:
         return head;
     }
 };
+//temp pointer behaves as a node which we want to delete 
+//curr pointer behaves as a prev of a node(temp) 
