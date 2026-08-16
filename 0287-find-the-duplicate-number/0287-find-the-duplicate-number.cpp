@@ -27,7 +27,7 @@ public:
         }
         return -1;*/
 
-        //Approach 3: cycle detection using floyd warshall algo
+        //Approach 3: cycle detection using floyd cycle detection
         //begining positions of both the pointers
         int slow=0;
         int fast=0;
