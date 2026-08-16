@@ -1,10 +1,11 @@
+#include <climits>
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
         int n= nums.size();
         int l=0;
         int r;
-        int ans;
+        int ans= 0;
         int count=0;
 
         for(r=0; r<n; r++){
@@ -17,7 +18,6 @@ public:
 
         ans= max(ans, (r-l+1));
         }
-        return ans;
-        
+        return ans; 
     }
 };
