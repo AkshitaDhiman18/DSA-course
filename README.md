@@ -207,4 +207,12 @@
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
