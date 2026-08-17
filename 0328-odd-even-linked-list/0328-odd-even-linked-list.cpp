@@ -14,12 +14,13 @@ public:
         //bruteforce approach
         vector<int> arr;
 
-    if(head == nullptr) return head;
+    if(head == nullptr || head->next == nullptr) return head;
 
     
 
     ListNode* temp= head;
     //for odd values
+    //tc= O(n/2)
     while(temp != nullptr && temp->next != nullptr){
         arr.push_back(temp->val);
         temp= temp->next->next;
@@ -30,6 +31,7 @@ public:
 
     //for even nodes
     ListNode* temp1= head->next;
+    //tc= O(n/2)
     while(temp1 != nullptr && temp1->next != nullptr){
         arr.push_back(temp1->val);
         temp1= temp1->next->next;
@@ -39,6 +41,7 @@ public:
     ListNode* a= head;
     int Size= arr.size();
     int i=0;
+    //tc= O(n)
     while(a != nullptr){
         if(a->val != arr[i]){
             a->val = arr[i];
