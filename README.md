@@ -202,6 +202,7 @@
 | [0083-remove-duplicates-from-sorted-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
 | [0237-delete-node-in-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0237-delete-node-in-a-linked-list) |
+| [0707-design-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0707-design-linked-list) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
 |  |
@@ -215,4 +216,8 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
+## Design
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
