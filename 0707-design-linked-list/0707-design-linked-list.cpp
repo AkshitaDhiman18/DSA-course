@@ -16,6 +16,8 @@ public:
 class MyLinkedList {
 public:
     //head ek pointer hai jo first Node ka address store karega.
+    //head aur tail khud nodes nahi hain.
+    //Ye nodes ke addresses store karne wale pointers hain.
     Node* head;
     Node* tail;
 
@@ -133,7 +135,7 @@ public:
 
         curr->next= nullptr;
         temp->next=forward;
-        
+        //Agar jo node delete ho rahi hai woh tail thi, toh tail ko previous node banana padega.
         if(curr == tail) {
         tail = temp;
     }
