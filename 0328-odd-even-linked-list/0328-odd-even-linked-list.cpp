@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
         //bruteforce approach
-        vector<int> arr;
+        /*vector<int> arr;
 
     if(head == nullptr || head->next == nullptr) return head;
 
@@ -49,6 +49,23 @@ public:
         a= a->next;
         i++;
     }
+    return head;*/
+
+    if(head == nullptr || head->next == nullptr) return head;
+
+    ListNode* odd= head;
+    ListNode* even= head->next;
+    ListNode* evennode= head->next;
+
+    while(even != nullptr && even->next != nullptr){
+        odd->next= odd->next->next;
+        odd= odd->next;
+
+        even->next= even->next->next;
+        even= even->next;
+    }
+
+    odd->next= evennode;
     return head;
     }
 };
