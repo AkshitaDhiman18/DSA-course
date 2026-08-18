@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         //bruteforce approach
-        vector<int> arr;
+        /*vector<int> arr;
 
         ListNode* temp= head;
         while(temp != nullptr){
@@ -25,6 +25,22 @@ public:
             a->val= arr[i];
             a= a->next;
         }
-        return head; 
+        return head;*/
+
+        //iterative approch
+        ListNode* prev= nullptr;
+        ListNode* curr= head;
+        ListNode* temp= head;
+
+        while(curr != nullptr){
+            ListNode* forward= curr->next;
+            curr->next= prev;
+            prev= curr;
+            curr=forward;
+        }
+        head= prev;
+        //tail=temp;
+
+        return head;
     }
 };
