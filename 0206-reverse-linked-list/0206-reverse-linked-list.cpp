@@ -10,6 +10,22 @@
  */
 class Solution {
 public:
+    ListNode* reverseLL(ListNode* head, ListNode* prev, ListNode* curr){
+        //base case
+        if(curr == nullptr){
+            head= prev;
+            return head;
+        }
+
+        ListNode* forward= curr->next;
+        curr->next= prev;
+        prev=curr;
+        curr=forward;
+        
+        //recursive call
+        return reverseLL(head,prev,curr);
+    }
+
     ListNode* reverseList(ListNode* head) {
         //bruteforce approach
         /*vector<int> arr;
@@ -28,9 +44,8 @@ public:
         return head;*/
 
         //iterative approch
-        ListNode* prev= nullptr;
+        /*ListNode* prev= nullptr;
         ListNode* curr= head;
-        ListNode* temp= head;
 
         while(curr != nullptr){
             ListNode* forward= curr->next;
@@ -41,6 +56,14 @@ public:
         head= prev;
         //tail=temp;
 
-        return head;
+        return head;*/
+
+        //recursive approach
+
+        ListNode* prev= nullptr;
+        ListNode* curr= head;
+
+        return reverseLL(head,prev,curr);
+
     }
 };
