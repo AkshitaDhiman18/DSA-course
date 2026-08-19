@@ -13,7 +13,7 @@ public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         //bruteforce approach
 
-        if(head == nullptr) return head;
+        /*if(head == nullptr) return head;
         if(left == right) return head;
         ListNode* temp= head;
         vector<int> arr;
@@ -37,7 +37,44 @@ public:
            insert= insert->next;
         }
 
-        return head;
+        return head;*/
+        if(left == right || head == nullptr) return head;
+        /*ListNode* temp= head;
+        int pos=1;*/
+
+         // Dummy node
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+
+        // temp ko left se just pehle le jao
+        ListNode* temp = dummy;
+        int pos = 1;
+
+        while(pos < left) {
+            temp = temp->next;
+            pos++;
+        }
+        /*while(pos != left-1){
+            temp= temp->next;
+            pos++;
+        }*/
         
+        ListNode* curr= temp->next;
+        ListNode* insert= curr;
+        ListNode* prev= nullptr;
+        temp->next= nullptr;
+
+        while(pos <= right){
+            ListNode* forward= curr->next;
+            curr->next= prev;
+            prev= curr;
+            curr= forward;
+            pos++;
+        }
+
+        temp->next=prev;
+        insert->next=curr;
+
+        return dummy->next;
     }
 };
