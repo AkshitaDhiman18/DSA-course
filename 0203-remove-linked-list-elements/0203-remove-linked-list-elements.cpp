@@ -57,12 +57,15 @@ public:
         ListNode* temp= head;
         ListNode* prev= nullptr;
         while(temp != nullptr){
+            //target value milgi
             if(temp->val == val){
+                //aur head pe mili hai toh removal from head case chlega
                 if(temp == head){
                     head= temp->next;
                     delete temp;
                     temp=head;
                 }else{
+                    //vrna je head pe ni mila toh remove from middle or last vla case chlega
                     ListNode* forward= temp->next;
                     temp->next= nullptr;
                     prev->next= forward;
@@ -71,6 +74,7 @@ public:
                     temp= forward;
                 }
             }else{
+                //ur je target nh mila toh aage badhte jao prev nide ko rememeber krte hue
                 prev= temp;
                 temp= temp->next;
             }
