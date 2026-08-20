@@ -74,14 +74,12 @@ public:
         }else{
             tail->next= new_node;
             tail=new_node;
-        }
-        
+        } 
     }
     
     void addAtIndex(int index, int val){
         int len= get_len(head);
         
-
         if(index > len) return;
 
         if(index == 0){
@@ -104,6 +102,8 @@ public:
         temp->next= new_node;
         new_node -> next= curr;  
     }
+        
+
     
     void deleteAtIndex(int index) {
         int len= get_len(head);
