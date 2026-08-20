@@ -1,5 +1,6 @@
+//FOR SINGLY LINKEDLIST
 //iska kaam bs node banana hai
-class Node {
+/*class Node {
 public:
     //node data memeber
     int val;
@@ -38,14 +39,14 @@ public:
     
     int get(int index) {
     int len= get_len(head);
-         //ivalid index
+         //invalid index
         if(index <0 || index >= len) return -1;
 
             Node* temp= head;
             if(index == 0){
                 return head->val;
             }else{
-                int pos=0;
+                int pos=0; 
                 while(pos != index){
                     pos++;
                     temp= temp->next;
@@ -80,7 +81,7 @@ public:
     void addAtIndex(int index, int val){
         int len= get_len(head);
         
-        if(index > len) return;
+        if(index < 0 || index > len) return;
 
         if(index == 0){
             addAtHead(val);
@@ -91,7 +92,7 @@ public:
             addAtTail(val);
             return;
         }
-
+ 
         Node* temp= head;
         Node* new_node= new Node(val);
         for(int i=1; i<index; i++){
@@ -141,7 +142,177 @@ public:
     }
         delete curr;
     }    
+};*/
+
+//FOR DOUBLY LL
+class node {
+public:
+    int val;
+    node* next;
+    node* prev;
+
+    node(int data) {
+        this->val = data;
+        this->next = nullptr;
+        this->prev = nullptr;
+    }
 };
+
+class MyLinkedList {
+public:
+    node* head;
+    node* tail;
+
+    MyLinkedList() {
+        head = nullptr;
+        tail = nullptr;
+    }
+
+    int get_len() {
+        node* temp = head;
+        int len = 0;
+
+        while (temp != nullptr) {
+            len++;
+            temp = temp->next;
+        }
+
+        return len;
+    }
+
+    int get(int index) {
+        int len = get_len();
+
+        if (index < 0 || index >= len)
+            return -1;
+
+        node* temp = head;
+
+        for (int i = 0; i < index; i++) {
+            temp = temp->next;
+        }
+
+        return temp->val;
+    }
+
+    void addAtHead(int val) {
+        node* newnode = new node(val);
+
+        if (head == nullptr) {
+            head = newnode;
+            tail = newnode;
+        }
+        else {
+            newnode->next = head;
+            head->prev = newnode;
+            head = newnode;
+        }
+    }
+
+    void addAtTail(int val) {
+        node* newnode = new node(val);
+
+        if (tail == nullptr) {
+            head = newnode;
+            tail = newnode;
+        }
+        else {
+            tail->next = newnode;
+            newnode->prev = tail;
+            tail = newnode;
+        }
+    }
+
+    void addAtIndex(int index, int val) {
+        int len = get_len();
+
+        if (index < 0 || index > len)
+            return;
+
+        if (index == 0) {
+            addAtHead(val);
+            return;
+        }
+
+        if (index == len) {
+            addAtTail(val);
+            return;
+        }
+
+        node* temp = head;
+
+        for (int i = 0; i < index - 1; i++) {
+            temp = temp->next;
+        }
+
+        node* forward = temp->next;
+        node* newnode = new node(val);
+
+        temp->next = newnode;
+        newnode->prev = temp;
+
+        newnode->next = forward;
+        forward->prev = newnode;
+    }
+
+    void deleteAtIndex(int index) {
+        int len = get_len();
+
+        if (index < 0 || index >= len)
+            return;
+
+        // Only one node
+        if (len == 1) {
+            node* temp = head;
+
+            head = nullptr;
+            tail = nullptr;
+
+            delete temp;
+            return;
+        }
+
+        // Delete head
+        if (index == 0) {
+            node* temp = head;
+
+            head = head->next;
+            head->prev = nullptr;
+
+            delete temp;
+            return;
+        }
+
+        // Delete tail
+        if (index == len - 1) {
+            node* temp = tail;
+
+            tail = tail->prev;
+            tail->next = nullptr;
+
+            delete temp;
+            return;
+        }
+
+        // Delete middle node
+        node* temp = head;
+
+        for (int i = 0; i < index; i++) {
+            temp = temp->next;
+        }
+
+        node* backward = temp->prev;
+        node* forward = temp->next;
+
+        backward->next = forward;
+        forward->prev = backward;
+
+        delete temp;
+    }
+};
+
+
+
 
 /**
  * Your MyLinkedList object will be instantiated and called as such:
