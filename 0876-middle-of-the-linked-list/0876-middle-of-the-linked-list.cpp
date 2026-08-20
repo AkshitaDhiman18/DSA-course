@@ -28,7 +28,7 @@ public:
 
     int value= length/2;
 
-    for(int i=1; i<value+1; i++){
+    for(int pos=0; pos<value; pos++){
         head= head->next;
     }
     return head;  
