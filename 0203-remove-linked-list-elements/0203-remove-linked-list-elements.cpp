@@ -13,7 +13,7 @@
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        if(head == nullptr) return head; //if list is empty
+        /*if(head == nullptr) return head; //if list is empty
         // Step 1: beginning se matching nodes remove karo
         //handlings consecutive matching nodes at the beginning of list are handled
         while(head != nullptr && head->val == val) {
@@ -39,6 +39,42 @@ public:
             }
         }
 
+        return head;*/
+        //empty LL
+        if(head == nullptr) return head;
+        //single node LL
+        if(head -> next == nullptr){
+            if(head->val == val){
+                ListNode* temp = head;
+                head= nullptr;
+                delete temp;
+                return head;
+            }else{
+                return head;
+            }
+        }
+
+        ListNode* temp= head;
+        ListNode* prev= nullptr;
+        while(temp != nullptr){
+            if(temp->val == val){
+                if(temp == head){
+                    head= temp->next;
+                    delete temp;
+                    temp=head;
+                }else{
+                    ListNode* forward= temp->next;
+                    temp->next= nullptr;
+                    prev->next= forward;
+                    delete temp;
+
+                    temp= forward;
+                }
+            }else{
+                prev= temp;
+                temp= temp->next;
+            }
+        }
         return head;
     }
 };
