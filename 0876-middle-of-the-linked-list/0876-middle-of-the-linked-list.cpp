@@ -11,7 +11,8 @@
 #include <cmath>
 class Solution {
 public:
-    int getlen(ListNode* head){
+
+    /*int getlen(ListNode* head){
         int len=0;
         ListNode* temp= head;
         while(temp != nullptr){
@@ -21,16 +22,30 @@ public:
         return len;
 
 
-    }
-    ListNode* middleNode(ListNode* head) {\
-    int length= getlen(head);
+    }*/
+
+    ListNode* middleNode(ListNode* head) {
+        //bruteforce approach:- use 0 ased index technique
+    /*int length= getlen(head);
     if(length == 1) return head;
 
     int value= length/2;
 
-    for(int pos=0; pos<value; pos++){
+    for(int index=0; index<value; pos++){
         head= head->next;
     }
-    return head;  
+    return head;*/
+
+    //Tortoise-Hare approach
+
+    ListNode* slow= head;
+    ListNode* fast= head;
+
+    while(fast != nullptr && fast->next != nullptr){
+        slow= slow->next;
+        fast= fast->next->next;
+    }
+
+    return slow;
     }
 };
