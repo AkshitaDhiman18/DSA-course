@@ -62,7 +62,7 @@ public:
         ListNode* insert= curr;
         ListNode* prev= nullptr;
         temp->next= nullptr;
-
+        //right tk reverse kra
         while(pos <= right){
             ListNode* forward= curr->next;
             curr->next= prev;
@@ -73,7 +73,7 @@ public:
 
         temp->next=prev;
         insert->next=curr;
-
+        //Aur dummy ka purpose hi ye hai ki head change hone wale cases (left == 1) ko easily handle kar sake.
         return dummy->next;
     }
 };
