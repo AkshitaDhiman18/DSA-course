@@ -38,26 +38,25 @@ public:
         }
 
         return head;*/
+
+
+        //kuch reverse nh krna
+        //empty node
         if(left == right || head == nullptr) return head;
-        /*ListNode* temp= head;
-        int pos=1;*/
 
          // Dummy node
-        ListNode* dummy = new ListNode(0);
+        ListNode* dummy = new ListNode(0); //dummy node whose value is 0
+        //we used dummy to handle left == 1 case
         dummy->next = head;
 
         // temp ko left se just pehle le jao
-        ListNode* temp = dummy;
+        ListNode* temp = dummy; //kyuki hme temp ko left se just phele rkhna hai 
         int pos = 1;
-
+        //temp ko left se just pehle rakhna hai.
         while(pos < left) {
             temp = temp->next;
             pos++;
         }
-        /*while(pos != left-1){
-            temp= temp->next;
-            pos++;
-        }*/
         
         ListNode* curr= temp->next;
         ListNode* insert= curr;
