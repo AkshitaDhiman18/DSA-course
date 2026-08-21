@@ -82,6 +82,7 @@
 | [0125-valid-palindrome](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
+| [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
@@ -123,6 +124,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
+| [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -204,6 +206,7 @@
 | [0092-reverse-linked-list-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0092-reverse-linked-list-ii) |
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0328-odd-even-linked-list) |
 | [0707-design-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0707-design-linked-list) |
@@ -214,6 +217,7 @@
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 ## Pigeonhole Principle
 |  |
 | ------- |
