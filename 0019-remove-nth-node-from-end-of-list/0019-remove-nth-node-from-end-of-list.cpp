@@ -11,18 +11,19 @@
 class Solution {
 public:
 
-    int get_len(ListNode* head){
+    /*int get_len(ListNode* head){
         int len=0;
         while(head != nullptr){
             len++;
             head= head->next;
         }
         return len;
-    }
+    }*/
+
 
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         //empty LL
-        if(head == nullptr) return head;
+        /*if(head == nullptr) return head;
         
         //agr single node linkelist hai aur n== 1 hai toh list empty hojega
         if(head->next== nullptr){
@@ -59,6 +60,36 @@ public:
         curr->next= nullptr;
         prev->next= forward;
 
-        return head; 
+        return head;*/
+
+        //optimal approach: dummynode + fast and slow pointer
+        //empty LL
+        if(head == nullptr) return head;
+
+        ListNode* dummy= new ListNode(0);
+        dummy->next= head;
+
+        ListNode* slow= dummy;
+        ListNode* fast= dummy;
+        int count=1;
+
+        while(count <= n){
+            fast= fast->next;
+            count++;
+        }
+
+        while(fast->next != nullptr){
+            slow= slow->next;
+            fast= fast->next;
+        }
+
+        ListNode* temp= slow;
+        ListNode* curr= temp->next;
+        ListNode* forward= curr->next;
+
+        curr->next= nullptr;
+        temp->next= forward;
+
+        return dummy->next;
     }
 };
