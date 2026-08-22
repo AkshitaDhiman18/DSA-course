@@ -11,18 +11,20 @@
 class Solution {
 public:
 
-   int get_len(ListNode* head){
+   /*int get_len(ListNode* head){
     int len=0;
     while(head != nullptr){
         len++;
         head= head->next;
     }
     return len;
-   }
+   }*/
+
 
 
     void reorderList(ListNode* head) {
-        int len= get_len(head);
+        //bruteforce approach
+        /*int len= get_len(head);
         //edge cases
         if(head == nullptr || head->next == nullptr) return;
 
@@ -76,8 +78,54 @@ public:
 
         }else{
             prev->next= nullptr;
+        }*/
+
+        //optimal approach
+
+        //edge cases
+        if(head == nullptr || head->next == nullptr) return;
+
+        //find middle
+        ListNode* slow=head;
+        ListNode* fast= head;
+
+        while(fast->next != nullptr && fast->next->next != nullptr){
+            slow= slow->next;
+            fast= fast->next->next;
         }
 
+        //reverse second half
+
+        ListNode* A= slow->next;
+        slow->next= nullptr;
+        ListNode* prev= nullptr;
+
+        while(A != nullptr){
+            ListNode* forward= A->next;
+            A->next=prev;
+
+            prev= A;
+            A= forward;
+        }
+
+        //link attachment
+
+        ListNode* temp= head;
+        ListNode* middle= temp->next;
+
+        while(middle != nullptr){
+            ListNode* further= prev->next;
+            ListNode* further1= middle->next;
+
+            temp->next=prev;
+            prev->next= middle;
+
+            temp=middle;
+            middle= further1;
+            prev= further;
+        }
+
+        temp->next= prev;
         return;
     }
 };
