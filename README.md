@@ -73,6 +73,7 @@
 | [0015-3sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0018-4sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
@@ -204,6 +205,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0092-reverse-linked-list-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0092-reverse-linked-list-ii) |
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
