@@ -96,20 +96,20 @@ public:
 
         //reverse second half
 
-        ListNode* A= slow->next;
+        ListNode* new_head= slow->next; //second half linkedlist ka new head
         slow->next= nullptr;
         ListNode* prev= nullptr;
 
-        while(A != nullptr){
-            ListNode* forward= A->next;
-            A->next=prev;
+        while(new_head != nullptr){
+            ListNode* forward= new_head->next;
+            new_head->next=prev;
 
-            prev= A;
-            A= forward;
+            prev= new_head;
+            new_head= forward;
         }
 
         //link attachment
-
+        
         ListNode* temp= head;
         ListNode* middle= temp->next;
 
