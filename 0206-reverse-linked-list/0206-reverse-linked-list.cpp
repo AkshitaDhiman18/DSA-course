@@ -62,7 +62,8 @@ public:
 
         ListNode* prev= nullptr;
         ListNode* curr= head;
-
+         
+        //"Main abhi khud kuch return nahi kar raha. Pehle andar wali recursive call ka answer aane do. Jo answer andar se aayega, wahi main bhi upar return kar dunga."
         return reverseLL(head,prev,curr);
 
     }
