@@ -31,7 +31,7 @@ public:
 
         int i=1;
         while(i<=grps){
-            ListNode* complete= point->next;
+            ListNode* groupstart= point->next;
             point->next= nullptr;
             ListNode* prev= nullptr;
 
@@ -45,7 +45,7 @@ public:
             }
 
             point->next= prev;
-            point=complete;
+            point=groupstart;
             point->next= temp;
             i++;
         }
