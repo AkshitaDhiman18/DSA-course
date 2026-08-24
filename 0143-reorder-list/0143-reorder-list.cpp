@@ -82,50 +82,48 @@ public:
 
         //optimal approach
 
-        //edge cases
-        if(head == nullptr || head->next == nullptr) return;
+        // Edge cases
+        if (head == nullptr || head->next == nullptr)
+            return;
 
-        //find middle
-        ListNode* slow=head;
-        ListNode* fast= head;
+        // Find middle
+        ListNode* slow = head;
+        ListNode* fast = head;
 
-        while(fast->next != nullptr && fast->next->next != nullptr){
-            slow= slow->next;
-            fast= fast->next->next;
+        while (fast->next != nullptr && fast->next->next != nullptr) {
+            slow = slow->next;
+            fast = fast->next->next;
         }
 
-        //reverse second half
+        // Reverse second half
+        ListNode* new_head = slow->next;
+        slow->next = nullptr;
 
-        ListNode* new_head= slow->next; //second half linkedlist ka new head
-        slow->next= nullptr;
-        ListNode* prev= nullptr;
+        ListNode* prev = nullptr;
 
-        while(new_head != nullptr){
-            ListNode* forward= new_head->next;
-            new_head->next=prev;
+        while (new_head != nullptr) {
+            ListNode* forward = new_head->next;
 
-            prev= new_head;
-            new_head= forward;
+            new_head->next = prev;
+            prev = new_head;
+            new_head = forward;
         }
 
-        //link attachment
-        
-        ListNode* temp= head;
-        ListNode* middle= temp->next;
+        // Merge two halves
+        ListNode* first = head;
+        ListNode* second = prev;
 
-        while(middle != nullptr){
-            ListNode* further= prev->next;
-            ListNode* further1= middle->next;
+        while (second != nullptr) {
 
-            temp->next=prev;
-            prev->next= middle;
+            ListNode* firstNext = first->next;
+            ListNode* secondNext = second->next;
 
-            temp=middle;
-            middle= further1;
-            prev= further;
+            first->next = second;
+            second->next = firstNext;
+
+            first = firstNext;
+            second = secondNext;
         }
-
-        temp->next= prev;
         return;
     }
 };
