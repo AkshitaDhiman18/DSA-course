@@ -63,7 +63,7 @@ public:
             deleteNodeFromLL(oldnode);
             addatMRUpos(tail, oldnode);
 
-            ans= mp[key]->value;
+            ans= oldnode->value;
         }else{
             return -1;
         }
