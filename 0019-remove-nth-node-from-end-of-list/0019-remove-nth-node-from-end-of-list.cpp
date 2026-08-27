@@ -65,7 +65,7 @@ public:
         //optimal approach: dummynode + fast and slow pointer
         //empty LL
         if(head == nullptr) return head;
-
+        //“Dummy node is used to handle the edge case where the head node itself needs to be deleted, allowing us to treat head deletion just like deletion of any other node.”
         ListNode* dummy= new ListNode(0);
         dummy->next= head;
 
