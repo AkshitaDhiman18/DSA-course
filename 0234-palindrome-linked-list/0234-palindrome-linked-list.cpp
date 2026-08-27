@@ -29,6 +29,8 @@ public:
 
        return true;*/
 
+       if(head == nullptr || head->next == nullptr) return true;
+
        //Tortoise-Hare approach
        ListNode* slow= head;
        ListNode* fast= head;
