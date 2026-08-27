@@ -30,9 +30,9 @@ public:
        return true;*/
 
        //Tortoise-Hare approach
-
        ListNode* slow= head;
        ListNode* fast= head;
+       
        //middle find
        while(fast ->next != nullptr && fast->next->next != nullptr){
         slow= slow->next;
