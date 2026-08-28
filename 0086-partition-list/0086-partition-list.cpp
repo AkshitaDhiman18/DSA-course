@@ -14,17 +14,17 @@ public:
     ListNode* partition(ListNode* head, int x) {
 
         if(head == nullptr) return nullptr;
-        
 
+        //new pointers creations
         ListNode* dummy= new ListNode(0);
+        ListNode* prev= new ListNode(0);
+
+        //pointers setup
         dummy->next= head;
         ListNode* point= dummy;
-
-        ListNode* prev= new ListNode(0);
         ListNode* temp= point->next;
         ListNode* start= nullptr;
 
-        //dummy= nullptr;
         int i=1;
 
         while(temp != nullptr){
