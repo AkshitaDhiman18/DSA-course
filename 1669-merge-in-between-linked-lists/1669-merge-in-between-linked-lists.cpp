@@ -8,24 +8,29 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+ /*temp1 → node before a
+bptr  → node b
+next  → node after b*/
 class Solution {
 public:
     ListNode* mergeInBetween(ListNode* list1, int a, int b, ListNode* list2) {
+
         ListNode* dummy= new ListNode(0);
         dummy->next= list1;
 
         ListNode* temp1= dummy;
         ListNode* temp2= list2;
 
-        int i=1;
-        while(i<=a){
+        int i=0;
+        while(i<a){
             temp1= temp1->next;
             i++;
         }
         ListNode* aptr= temp1->next;
         ListNode* bptr= aptr;
-
-        while(i<=b){
+        i=a;
+        while(i<b){
             bptr= bptr->next;
             i++;
         }
