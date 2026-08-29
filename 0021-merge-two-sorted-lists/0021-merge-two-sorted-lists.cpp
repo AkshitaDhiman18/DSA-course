@@ -10,22 +10,13 @@
  */
 class Solution {
 public:
-    
-    int get_len(ListNode* head){
-        int len=0;
-        while(head != nullptr){
-            len++;
-            head= head->next;
-        }
-        return len;
-    }
 
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         
         ListNode* temp1= list1;
         ListNode* temp2= list2;
 
-        if(temp1 == nullptr && temp2 == nullptr) return nullptr;
+        if(temp1 == nullptr && temp2 == nullptr) return temp1;
 
         /*if(temp1 == nullptr) return temp2;
         if(temp2 == nullptr) return temp1;*/
