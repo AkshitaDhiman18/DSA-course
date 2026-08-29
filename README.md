@@ -57,6 +57,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 | [0278-first-bad-version](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
+| [0374-guess-number-higher-or-lower](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0374-guess-number-higher-or-lower) |
 | [0410-split-array-largest-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0410-split-array-largest-sum) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0713-subarray-product-less-than-k) |
@@ -269,4 +270,5 @@
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0278-first-bad-version) |
+| [0374-guess-number-higher-or-lower](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
