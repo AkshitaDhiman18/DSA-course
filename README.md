@@ -91,6 +91,7 @@
 | [0141-linked-list-cycle](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
+| [0148-sort-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
@@ -130,6 +131,7 @@
 | [0018-4sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0217-contains-duplicate) |
 | [0977-squares-of-a-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0977-squares-of-a-sorted-array) |
 ## Stack
@@ -180,6 +182,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0004-median-of-two-sorted-arrays) |
+| [0148-sort-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0148-sort-list) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0240-search-a-2d-matrix-ii) |
 ## Sliding Window
 |  |
@@ -229,6 +232,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0148-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
@@ -273,4 +277,8 @@
 | ------- |
 | [0278-first-bad-version](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0374-guess-number-higher-or-lower) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
