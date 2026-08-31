@@ -23,6 +23,7 @@ public:
         ListNode* temp2= list2;
 
         int i=0;
+        //temp1 ko a-1 position tak le jaana:
         while(i<a){
             temp1= temp1->next;
             i++;
@@ -30,6 +31,7 @@ public:
         ListNode* aptr= temp1->next;
         ListNode* bptr= aptr;
         i=a;
+        //bptr ko b position tak le jaana:
         while(i<b){
             bptr= bptr->next;
             i++;
