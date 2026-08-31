@@ -18,25 +18,24 @@ public:
             head= temp->next;
         }else{
 
+            ListNode* dummy= new ListNode(0);
+            dummy->next= head;
+            ListNode* prev= dummy;
+
             ListNode* slow=head;
             ListNode* fast= head;
 
             while(fast != nullptr && fast->next != nullptr){
                 slow=slow->next;
-                fast= fast->next->next;
-            }
-
-            ListNode* prev= head;
-            while(prev->next != slow){
-                prev= prev->next;
+                prev=prev->next;
+                fast=fast->next->next;
             }
 
             ListNode* forward= slow->next;
             slow->next= nullptr;
 
             prev->next= forward;
-            }
-            
-        return head; 
+        } 
+        return head;
     }
 };
