@@ -83,6 +83,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
+| [0061-rotate-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0086-partition-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0086-partition-list) |
@@ -227,6 +228,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0023-merge-k-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0025-reverse-nodes-in-k-group) |
+| [0061-rotate-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0061-rotate-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0092-reverse-linked-list-ii) |
