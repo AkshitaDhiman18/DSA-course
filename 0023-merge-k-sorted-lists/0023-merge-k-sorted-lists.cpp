@@ -21,6 +21,9 @@ public:
     ListNode* dummy = new ListNode(0);
     dummy->next = lists[0];
 
+
+
+    //size n ke liye merging n-1 br hogi
     for(int i = 1; i < lists.size(); i++) {
 
         ListNode* previous = dummy;
