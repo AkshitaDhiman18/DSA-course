@@ -11,20 +11,10 @@
 class Solution {
 public:
 
-    int get_len(ListNode* head){
-        int len=0;
-
-        while(head != nullptr){
-            head= head->next;
-            len++;
-        }
-        return len;
-    } 
-
     ListNode* swapNodes(ListNode* head, int k) {
 
         if(head == nullptr || head->next == nullptr) return head;
-        int size= get_len(head);
+        
 
         int i=1;
         ListNode* dummy= new ListNode(0);
