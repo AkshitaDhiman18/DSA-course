@@ -25,10 +25,6 @@ public:
         if(head == nullptr) return arr;
 
         ListNode* start= head;
-        if(k == 0){
-            arr[0]= start;
-            return arr;
-        }
 
 
         int length= get_len(head);
