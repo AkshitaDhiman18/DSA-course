@@ -153,6 +153,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0138-copy-list-with-random-pointer](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0146-lru-cache) |
@@ -237,6 +238,7 @@
 | [0083-remove-duplicates-from-sorted-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0092-reverse-linked-list-ii) |
+| [0138-copy-list-with-random-pointer](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
