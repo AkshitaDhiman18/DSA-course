@@ -17,8 +17,10 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
+
+        //BRUTEFORCE APPROACH
         //agr LL empty ho toh uski nullptr hi deep copy bnegi 
-        if(head == nullptr) return nullptr;
+        /*if(head == nullptr) return nullptr;
 
         //head ko 2 ways mein use krna hai 
         Node* preserve= head;
@@ -86,6 +88,51 @@ public:
             pt= pt->next;
         }
 
-        return dummy->next;
+        return dummy->next;*/
+
+        //OPTIMAL SOLUTION-> INTERWEAVING
+        if(head == nullptr) return nullptr;
+
+        Node* temp= head;
+
+        //insertion of nodes in between original nodes
+        while(temp != nullptr){
+            Node* new_node= new Node(temp->val);
+            new_node->next= temp->next;
+            temp->next= new_node;
+            temp= temp->next->next;
+        }
+
+        //creation of random links 
+
+        Node* move= head;
+        while(move != nullptr){
+            if(move->random==nullptr){
+                move->next->random= nullptr;
+            }else{
+                move->next->random= move->random->next;
+            }
+            move= move->next->next;
+        }
+
+        //separation of original LL and deep copy LL
+        Node* new_head= head->next;
+        Node* curr= head;
+        Node* new_curr= new_head;
+
+        while(curr != nullptr && new_curr->next != nullptr){
+            //original LL connection
+            curr->next= curr->next->next;
+            curr= curr->next;
+
+            //for deep copy LL
+            new_curr->next= new_curr->next->next;
+            new_curr= new_curr->next;
+        }
+
+        curr->next= curr->next->next;
+        new_curr->next= nullptr;
+
+        return new_head;  
     }
 };
