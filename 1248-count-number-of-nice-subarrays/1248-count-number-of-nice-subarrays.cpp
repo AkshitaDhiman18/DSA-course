@@ -16,7 +16,7 @@ public:
                 l++;
             }
             int length= r-l+1;
-            if(count<=goal) ans+= length;
+            ans+= length;
         }
         return ans;
     }
