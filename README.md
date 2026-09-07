@@ -44,6 +44,7 @@
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1539-kth-missing-positive-number) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1870-minimum-speed-to-arrive-on-time) |
 | [2187-minimum-time-to-complete-trips](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2187-minimum-time-to-complete-trips) |
 ## Binary Search
@@ -175,6 +176,7 @@
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -268,6 +270,7 @@
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Pigeonhole Principle
 |  |
 | ------- |
@@ -305,4 +308,12 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0023-merge-k-sorted-lists) |
+## Queue
+|  |
+| ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
+## Simulation
+|  |
+| ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
 <!---LeetCode Topics End-->
