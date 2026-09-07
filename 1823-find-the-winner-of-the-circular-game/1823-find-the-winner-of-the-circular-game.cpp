@@ -25,7 +25,7 @@ public:
         }
 
         Node* head=dummy->next;
-        dummy->next= nullptr;
+        delete dummy;
         pt->next= head;
         
 
@@ -43,7 +43,6 @@ public:
         }
         Node* forward= temp->next;
         preserve->next= forward;
-        temp->next= nullptr;
         delete temp;
         temp= forward;
     }
