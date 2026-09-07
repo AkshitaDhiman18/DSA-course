@@ -15,6 +15,7 @@ public:
                 if(nums[l]%2 != 0) count--;
                 l++;
             }
+            
             int length= r-l+1;
             ans+= length;
         }
