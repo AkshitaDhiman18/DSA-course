@@ -38,7 +38,8 @@ public:
     
     // Merge Sort Function
     void mergesort(vector<string> &strs, int low, int high) {
-        if (low >= high) return;   // base case: single element ya invalid range
+        if (low >= high) return;
+          // base case: single element ya invalid range
         
         int mid = low + (high - low) / 2;
         
