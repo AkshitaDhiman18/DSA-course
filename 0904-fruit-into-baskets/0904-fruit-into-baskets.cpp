@@ -17,9 +17,9 @@ public:
                 l++;
             }
 
-            if(basket.size() <= 2){
-                maximum_fruits= max(maximum_fruits,(r-l+1));
-            }
+            
+            maximum_fruits= max(maximum_fruits,(r-l+1));
+            
         }
         return maximum_fruits;
     }
