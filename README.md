@@ -176,6 +176,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0002-add-two-numbers) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
@@ -235,6 +236,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0023-merge-k-sorted-lists) |
@@ -267,6 +269,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0025-reverse-nodes-in-k-group) |
