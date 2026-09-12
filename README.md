@@ -149,6 +149,7 @@
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
@@ -178,6 +179,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0002-add-two-numbers) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
+| [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1248-count-number-of-nice-subarrays](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1248-count-number-of-nice-subarrays) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
@@ -258,6 +260,7 @@
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0328-odd-even-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
 | [0707-design-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0707-design-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0725-split-linked-list-in-parts) |
 | [0876-middle-of-the-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0876-middle-of-the-linked-list) |
