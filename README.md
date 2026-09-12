@@ -20,6 +20,7 @@
 | [0088-merge-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0179-largest-number) |
+| [0189-rotate-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0219-contains-duplicate-ii) |
@@ -98,6 +99,7 @@
 | [0148-sort-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0283-move-zeroes) |
@@ -179,6 +181,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0002-add-two-numbers) |
+| [0189-rotate-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0668-kth-smallest-number-in-multiplication-table) |
