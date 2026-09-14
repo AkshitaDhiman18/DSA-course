@@ -14,3 +14,5 @@ public:
         return l;
     }
 };
+
+//tc- O(n) and sc= O(1)
