@@ -2,12 +2,15 @@ class Solution {
 public:
     void sortColors(vector<int>& nums) {
         int n=nums.size();
-        //bruteforce approach
+        //bruteforce approach 
+        //tc= O(nlogn)
         /*sort(nums.begin(), nums.end());
         return;*/
 
         //optimised approach
-        int count_ones=0;
+        //tc=O(n)
+        //sc=O(1)
+        /*int count_ones=0;
         int count_zeros=0;
         int count_twos=0;
 
@@ -31,11 +34,13 @@ public:
             nums[k]= 2;
         }
 
-        return;
+        return;*/
 
 
         //optimal approch
-        /*if(n==1) return;
+        //dutch national flag problem
+        //tc=O(n) and single pass
+        if(n==1) return;
         int low=0;
         int high=n-1;
         int mid= 0;
@@ -57,6 +62,6 @@ public:
                 mid++;
             }
         }
-        return;*/
+        return;
     }
 };
