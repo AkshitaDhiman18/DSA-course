@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
+        //two pointer approach
         int n=numbers.size();
         int l=0;
         int r=n-1;
