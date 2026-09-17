@@ -12,7 +12,7 @@ public:
             if(nums[mid] == 0){
                 swap(nums[mid], nums[low]);
                 low++;
-                 mid++;
+                mid++;
             }else if(nums[mid]==2){
                 if(nums[high] !=2){
                 swap(nums[mid], nums[high]);
