@@ -40,8 +40,8 @@ public:
         }
         return nullptr;*/
 
-        //optimal solution
-        int size1= get_len(headA);
+        //length difference approach
+        /*int size1= get_len(headA);
         int size2= get_len(headB);
 
         int difference= abs(size1-size2);
@@ -69,7 +69,27 @@ public:
             temp1= temp1->next;
             temp2= temp2->next;
         }
-        return nullptr;
+        return nullptr;*/
+        
+        //pointer manipulation approach
+        ListNode* aptr= headA;
+        ListNode* bptr= headB;
+
+        while(aptr != bptr){
+
+           if(aptr == nullptr){
+            aptr= headB;
+           }else{
+            aptr= aptr->next;
+           }
+
+           if(bptr == nullptr){
+            bptr= headA;
+           }else{
+            bptr= bptr->next;
+           }
+        }
+        return aptr;
 
     }
 };
