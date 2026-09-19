@@ -16,15 +16,10 @@ public:
         ListNode* temp1= list1;
         ListNode* temp2= list2;
 
-        if(temp1 == nullptr && temp2 == nullptr) return temp1;
-
-        /*if(temp1 == nullptr) return temp2;
-        if(temp2 == nullptr) return temp1;*/
+        //if(temp1 == nullptr && temp2 == nullptr) return temp1;
 
         ListNode* dummy= new ListNode(0);
         dummy->next= list1;
-
-        //ListNode* point= dummy;
         ListNode* prev= dummy;
 
         while(temp1 != nullptr && temp2 != nullptr){
@@ -38,7 +33,7 @@ public:
             }else if(value2 < value1){
                 //ListNode* forward1= temp1->next;
                 ListNode* forward2= temp2->next;
-                temp2->next= nullptr;
+               
                 prev->next= temp2;
                 temp2->next= temp1;
                 prev= temp2;
