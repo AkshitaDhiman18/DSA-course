@@ -19,35 +19,29 @@ public:
         ListNode* dummy= new ListNode(0);
         dummy->next= list1;
 
-        ListNode* temp1= dummy;
-        ListNode* temp2= list2;
+        ListNode* left= dummy;
+        ListNode* temp= list2;
 
         int i=0;
         //temp1 ko a-1 position tak le jaana:
         while(i<a){
-            temp1= temp1->next;
+            left= left->next;
             i++;
         }
-        ListNode* aptr= temp1->next;
-        ListNode* bptr= aptr;
-        i=a;
+        ListNode* right= left->next;
+        
         //bptr ko b position tak le jaana:
-        while(i<b){
-            bptr= bptr->next;
+        while(i<=b){
+            right= right->next;
             i++;
         }
+        left->next= temp;
 
-        ListNode* next= bptr->next;
-        temp1->next= nullptr;
-        bptr->next= nullptr;
-
-        temp1->next= temp2;
-
-        while(temp2->next != nullptr){
-            temp2= temp2->next;
+        while(temp->next != nullptr){
+            temp= temp->next;
         }
 
-        temp2->next= next;
+        temp->next= right;
 
         return dummy->next;
     }
