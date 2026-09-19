@@ -21,6 +21,7 @@ public:
 
      ListNode* rotateRight(ListNode* head, int k) {
         if(head == nullptr) return nullptr;
+        if(head->next == nullptr) return head;
 
         int len= get_len(head);
 
@@ -34,24 +35,23 @@ public:
         }
 
         ListNode* dummy= new ListNode(0);
-        dummy->next= head;
+        ListNode* prev= head;
+        //ListNode* temp= dummy->next;
 
-        ListNode* prev= dummy;
-        ListNode* temp= dummy->next;
-
-        int i=0;
+        int i=1;
         while(i < len-rotation){
-            temp= temp->next;
             prev= prev->next;
             i++;
         }
 
+        ListNode* forward= prev->next;
         prev->next= nullptr;
 
-        dummy->next= temp;
+        dummy->next= forward;
         tail->next= head;
 
-        return dummy->next;    
+        return dummy->next;
+
     }
 };
 
