@@ -8,13 +8,25 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-#include <climits>
+#include <climits> 
 class Solution {
 public:
+
+    int get_size(ListNode* head){
+        int size=0;
+        ListNode* temp= head;
+        while(temp != nullptr){
+            size++;
+            temp= temp->next;
+        }
+        return size;
+    }
+
     int pairSum(ListNode* head) {
         ListNode* slow=head;
         ListNode* fast= head;
         //middle nikla
+
         while(fast->next != nullptr && fast->next->next != nullptr){
             fast= fast->next->next;
             slow= slow->next;
@@ -33,6 +45,7 @@ public:
             prev= temp;
             temp= forward;
         }
+
         int max_twinsum= INT_MIN;
         while(prev != nullptr){
             int value1= head->val;
@@ -45,6 +58,5 @@ public:
         }
 
         return max_twinsum;
-       
     }
 };
