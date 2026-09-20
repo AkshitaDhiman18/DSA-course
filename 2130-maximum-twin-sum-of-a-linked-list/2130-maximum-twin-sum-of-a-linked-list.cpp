@@ -25,6 +25,7 @@ public:
         ListNode* next= slow->next;
         slow->next= nullptr;
         //second half reverse kra
+        
         ListNode* prev= nullptr;
 
         ListNode* temp= next;
