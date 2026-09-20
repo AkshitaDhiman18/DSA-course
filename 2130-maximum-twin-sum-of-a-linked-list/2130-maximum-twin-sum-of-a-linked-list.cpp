@@ -12,16 +12,6 @@
 class Solution {
 public:
 
-    int get_size(ListNode* head){
-        int size=0;
-        ListNode* temp= head;
-        while(temp != nullptr){
-            size++;
-            temp= temp->next;
-        }
-        return size;
-    }
-
     int pairSum(ListNode* head) {
         ListNode* slow=head;
         ListNode* fast= head;
