@@ -16,6 +16,7 @@ public:
         if(head->next == nullptr){
             ListNode* temp= head;
             head= temp->next;
+            temp->next= nullptr;
         }else{
 
             ListNode* dummy= new ListNode(0);
