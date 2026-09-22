@@ -16,7 +16,6 @@ public:
         ListNode* temp1= list1;
         ListNode* temp2= list2;
 
-        //if(temp1 == nullptr && temp2 == nullptr) return temp1;
 
         ListNode* dummy= new ListNode(0);
         dummy->next= list1;
