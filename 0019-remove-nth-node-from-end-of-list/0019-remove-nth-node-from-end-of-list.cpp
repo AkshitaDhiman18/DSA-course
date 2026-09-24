@@ -68,9 +68,10 @@ public:
         //“Dummy node is used to handle the edge case where the head node itself needs to be deleted, allowing us to treat head deletion just like deletion of any other node.”
         ListNode* dummy= new ListNode(0);
         dummy->next= head;
+        ListNode* prev= dummy;
 
-        ListNode* slow= dummy;
-        ListNode* fast= dummy;
+        ListNode* slow= head;
+        ListNode* fast= head;
         int count=1;
 
         while(count <= n){
@@ -78,17 +79,15 @@ public:
             count++;
         }
 
-        while(fast->next != nullptr){
+        while(fast != nullptr){
             slow= slow->next;
             fast= fast->next;
+            prev= prev->next;
         }
 
-        ListNode* temp= slow;
-        ListNode* curr= temp->next;
-        ListNode* forward= curr->next;
-
-        curr->next= nullptr;
-        temp->next= forward;
+        ListNode* temp= slow->next;
+        prev->next= temp;
+        slow->next= nullptr;
 
         return dummy->next;
     }
