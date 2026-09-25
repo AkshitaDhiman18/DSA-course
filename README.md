@@ -188,6 +188,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0268-missing-number) |
@@ -290,6 +291,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0025-reverse-nodes-in-k-group) |
+| [0050-powx-n](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0206-reverse-linked-list) |
