@@ -24,15 +24,13 @@ public:
         int grps= len/k;
 
         ListNode* dummy= new ListNode(0);
-        dummy->next= head;
 
         ListNode* point= dummy;
-        ListNode* temp= point->next;
+        ListNode* temp= head;
 
         int i=1;
         while(i<=grps){
-            ListNode* groupstart= point->next;
-            point->next= nullptr;
+            ListNode* groupstart= temp;
             ListNode* prev= nullptr;
 
             int size=1;
