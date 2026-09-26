@@ -37,7 +37,6 @@ public:
     return head;*/
 
     //Tortoise-Hare approach
-
     ListNode* slow= head;
     ListNode* fast= head;
 
