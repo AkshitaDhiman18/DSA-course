@@ -21,18 +21,14 @@ public:
                 r++;
                 i++;
             }else{
-                if(i == n2){
-                    return ans;
-                }else{
-                    i=0;
-                    l++;
-                    ans=l;
-                    r=l;
+                i=0;
+                l++;
+                ans=l;
+                r=l;
                 }
-            }
         }
     if(i == n2) return ans;
-    
+
         return -1;
         
     }
