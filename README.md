@@ -122,6 +122,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0179-largest-number) |
+| [0387-first-unique-character-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -179,6 +180,7 @@
 | [0217-contains-duplicate](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0268-missing-number) |
+| [0387-first-unique-character-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
@@ -251,6 +253,7 @@
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0387-first-unique-character-in-a-string) |
 | [0992-subarrays-with-k-different-integers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0992-subarrays-with-k-different-integers) |
 ## Linked List
 |  |
@@ -339,6 +342,7 @@
 ## Queue
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0387-first-unique-character-in-a-string) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Simulation
 |  |
