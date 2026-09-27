@@ -110,6 +110,7 @@
 | [0283-move-zeroes](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
+| [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0977-squares-of-a-sorted-array) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1721-swapping-nodes-in-a-linked-list) |
@@ -126,6 +127,7 @@
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -161,6 +163,7 @@
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
+| [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
@@ -347,6 +350,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Quicksort
 |  |
