@@ -42,44 +42,30 @@ public:
         return head;*/
         //empty LL
         if(head == nullptr) return head;
-        //single node LL
-        if(head -> next == nullptr){
-            if(head->val == val){
-                ListNode* temp = head;
-                head= nullptr;
-                delete temp;
-                return head;
-            }else{
-                return head;
-            }
-        }
+
+        ListNode* dummy= new ListNode(0);
+        ListNode* prev= dummy;
+        dummy->next= head;
 
         ListNode* temp= head;
-        ListNode* prev= nullptr;
-        while(temp != nullptr){
-            //target value milgi
-            if(temp->val == val){
-                //aur head pe mili hai toh removal from head case chlega
-                if(temp == head){
-                    head= temp->next;
-                    delete temp;
-                    temp=head;
-                }else{
-                    //vrna je head pe ni mila toh remove from middle or last vla case chlega
-                    ListNode* forward= temp->next;
-                    temp->next= nullptr;
-                    prev->next= forward;
-                    delete temp;
 
-                    temp= forward;
-                }
+        while(temp != nullptr){
+            if(temp->val == val){
+                ListNode* forward= temp->next;
+                ListNode* del= temp;
+
+                del->next= nullptr;
+                prev->next= forward;
+
+                delete del;
+                temp= forward;
             }else{
-                //ur je target nh mila toh aage badhte jao prev nide ko rememeber krte hue
-                prev= temp;
-                temp= temp->next;
+                prev= prev->next;
+                temp=temp->next;
             }
         }
-        return head;
+
+        return dummy->next;
     }
 };
 //temp pointer behaves as a node which we want to delete 
