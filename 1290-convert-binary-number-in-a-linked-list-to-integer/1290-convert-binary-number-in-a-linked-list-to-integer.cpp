@@ -14,7 +14,7 @@ public:
         int ans = 0;
 
         while (head != nullptr) {
-            ans = ans * 2 + head->val;
+            ans = ans * 2 + head->val;  //naya ans = purana ans × 2 + naya bit
             head = head->next;
         }
 
