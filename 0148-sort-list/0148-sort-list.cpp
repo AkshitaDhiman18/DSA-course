@@ -50,6 +50,7 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
+
         // slow = middle, next = middle ke baad wala node
         ListNode* next = slow->next;
         slow->next = nullptr;        // list ko do hisson mein todo
@@ -60,9 +61,8 @@ public:
         return merge(left, right);   // merged ka head return
     }
 
-    ListNode* sortList(ListNode* head) {
+    ListNode* sortList(ListNode* head){
         if (head == nullptr || head->next == nullptr) return head;
-
         ListNode* low = head;
         ListNode* tail = head;
 
