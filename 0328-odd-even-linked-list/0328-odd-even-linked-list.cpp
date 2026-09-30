@@ -53,21 +53,6 @@ public:
 
     if(head == nullptr || head->next == nullptr) return head;
 
-    /*ListNode* odd= head;
-    ListNode* even= head->next;
-    ListNode* evennode= head->next;
-
-    while(even != nullptr && even->next != nullptr){
-        odd->next= odd->next->next;
-        odd= odd->next;
-
-        even->next= even->next->next;
-        even= even->next;
-    }
-
-    odd->next= evennode;
-    return head;*/
-
     ListNode* temp1= head;
     ListNode* temp2= head->next;
 
