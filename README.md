@@ -33,6 +33,7 @@
 | [0410-split-array-largest-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0713-subarray-product-less-than-k) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -169,6 +170,7 @@
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
@@ -176,6 +178,7 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
 ## Hash Table
 |  |
 | ------- |
