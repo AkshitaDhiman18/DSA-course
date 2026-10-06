@@ -32,6 +32,7 @@
 | [0287-find-the-duplicate-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0485-max-consecutive-ones) |
+| [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0713-subarray-product-less-than-k) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -167,12 +168,14 @@
 | [0143-reorder-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
+| [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -190,6 +193,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
 | [0904-fruit-into-baskets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0992-subarrays-with-k-different-integers) |
