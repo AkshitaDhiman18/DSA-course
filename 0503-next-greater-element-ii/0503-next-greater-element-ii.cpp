@@ -20,15 +20,19 @@ public:
         //optimal approach
 
         int n= nums.size();
-        stack<int> st;
 
-        for(int i=n-1; i>=0; i--){
-            st.push(nums[i]);
+        for(int i=0; i<n; i++){
+            nums.push_back(nums[i]);
         }
 
-        for(int j=n-1; j>=0; j--){
+        stack<int> st;
+        vector<int> res(n);
+        st.push(nums[2*n-1]);
+        res[(2*n-1) % n]= -1;
+
+        for(int i= 2*n-2; i>=0; i--){
+            int curr= nums[i];
             int ans=-1;
-            int curr=nums[j];
 
             while(!st.empty() && st.top() <= curr){
                 st.pop();
@@ -36,10 +40,13 @@ public:
 
             if(!st.empty()) ans= st.top();
 
-            nums[j]= ans;
+            int new_index= i % n;
+            res[new_index]= ans;
             st.push(curr);
         }
 
-        return nums;
+        return res;
+
+
     }
 };
