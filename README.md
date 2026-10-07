@@ -174,6 +174,7 @@
 | [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
+| [0901-online-stock-span](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0901-online-stock-span) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
@@ -182,6 +183,7 @@
 | [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0901-online-stock-span) |
 ## Hash Table
 |  |
 | ------- |
@@ -334,6 +336,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0146-lru-cache) |
 | [0707-design-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0707-design-linked-list) |
+| [0901-online-stock-span](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0901-online-stock-span) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -394,4 +397,8 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0020-valid-parentheses) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
