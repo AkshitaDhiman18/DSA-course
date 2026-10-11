@@ -1,6 +1,6 @@
 class StockSpanner {
 public:
-    vector<int> temp;
+    vector<int> temp;  //used in bruteforce approach 
 
     StockSpanner() {  
     }
@@ -8,10 +8,10 @@ public:
     int next(int price) {
 
         //bruteforce approach
-        temp.push_back(price);
+        
         int n= temp.size();
-        int count=0;
-
+        int count=1;
+    //backward movement
         for(int i=n-1; i>=0; i--){
             if(temp[i] > price){
                 break;
@@ -19,6 +19,8 @@ public:
                 count++;
             }
         }
+        //insertion in temp
+        temp.push_back(price);
 
         return count;
         
