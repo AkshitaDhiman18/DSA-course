@@ -8,18 +8,18 @@ public:
         st.push(prices[n-1]);
 
         for(int i= n-2; i>=0; i--){
-            int curr= prices[i];
+            int curr_price= prices[i];
 
-            while(!st.empty() && st.top() > curr){
+            while(!st.empty() && st.top() > curr_price){
                 st.pop();
             }
 
             if(!st.empty()){
-                int ans= st.top();
-                prices[i]= curr - ans;
+                int discount= st.top();
+                prices[i]= curr_price - discount;
             }
 
-            st.push(curr);
+            st.push(curr_price);
         }
 
         return prices;
