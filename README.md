@@ -50,6 +50,7 @@
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1539-kth-missing-positive-number) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -175,6 +176,7 @@
 | [0739-daily-temperatures](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0901-online-stock-span) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
 |  |
@@ -184,6 +186,7 @@
 | [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0901-online-stock-span) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Hash Table
 |  |
 | ------- |
