@@ -1,11 +1,11 @@
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
-        
+    
         int n1= s.size();
         int n2= t.size();
 
-        string ans1;
+        /*string ans1;
         string ans2;
 
         for(int i=0; i<n1; i++){
@@ -30,7 +30,47 @@ public:
 
         if(ans1 == ans2) return true;
 
-        return false;
+        return false;*/
 
+        stack<char>st;
+        int i=0;
+
+        while(i<n1){
+            char ch= s[i];
+
+            if(ch != '#'){
+                st.push(ch);
+            }else if(ch == '#'){
+                if(!st.empty()) st.pop();
+            }
+            i++;
+        }
+
+        string ans="";
+        while(!st.empty()){
+            ans.push_back(st.top());
+            st.pop();
+        }
+        int j=0;
+
+        while(j<n2){
+            char ch= t[j];
+
+            if(ch != '#'){
+                st.push(ch);
+            }else if(ch == '#'){
+                if(!st.empty()) st.pop();
+            }
+            j++;
+        }
+
+        string ans1="";
+        while(!st.empty()){
+            ans1.push_back(st.top());
+            st.pop();
+        }
+        if(ans == ans1) return true;
+
+        return false;  
     }
 };
