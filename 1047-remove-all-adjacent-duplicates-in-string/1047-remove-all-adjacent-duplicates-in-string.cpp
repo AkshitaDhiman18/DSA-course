@@ -1,12 +1,13 @@
 class Solution {
 public:
     string removeDuplicates(string s) {
+        if(s.empty()) return s;
+        int n= s.size();
         stack<char>st;
         int i=0;
         st.push(s[i]);
         i++;
 
-        int n= s.size();
 
         while(i<n){
             char ch= s[i];
