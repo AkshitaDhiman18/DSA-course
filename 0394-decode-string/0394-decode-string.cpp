@@ -40,7 +40,7 @@ public:
                 string part="";
 
                 while(!b_alpha.empty() && b_alpha.top() != "["){
-                    part= b_alpha.top() + part;
+                    part= b_alpha.top() + part; //Kyunki stack se elements reverse order mein nikalte hain. Front mein add karne se original order preserve hota hai.
                     b_alpha.pop();
                 }
                 b_alpha.pop();
@@ -61,20 +61,11 @@ public:
                 i++;
             } 
         }
-        
-        stack<string> final_stack;
-        while(!b_alpha.empty()){
-            if(b_alpha.top() == "["){
-                b_alpha.pop();
-            }else{
-                final_stack.push(b_alpha.top());
-                b_alpha.pop();
-            }
-        }
+        //current decoding logic mein har [ ko matching ] process karte waqt already pop kar diya jaata hai. Isliye valid input par final stack mein "[" bachna nahi chahiye.
 
-        while(!final_stack.empty()){
-            ans+=final_stack.top();
-            final_stack.pop();
+        while(!b_alpha.empty()){
+            ans = b_alpha.top() + ans;  //Yahan ans ke front mein string add karne se original order preserve rahega.
+            b_alpha.pop();
         }
 
         return ans;
