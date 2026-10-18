@@ -134,6 +134,7 @@
 | [0344-reverse-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
@@ -175,6 +176,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
@@ -331,6 +333,7 @@
 | [0203-remove-linked-list-elements](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0394-decode-string) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Pigeonhole Principle
 |  |
