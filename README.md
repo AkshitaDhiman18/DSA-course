@@ -140,6 +140,7 @@
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -188,6 +189,7 @@
 | [0901-online-stock-span](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0901-online-stock-span) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AkshitaDhiman18/DSA-course/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Monotonic Stack
