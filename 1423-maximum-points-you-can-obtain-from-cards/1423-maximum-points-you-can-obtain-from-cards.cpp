@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {
+
         //Bruteforce approach
         /*int n= cardPoints.size();
         int sum;
@@ -44,6 +45,7 @@ public:
 
             maxscore= max(maxscore, lsum+rsum);
         }
-        return maxscore; 
+        return maxscore;
+
     }
 };
