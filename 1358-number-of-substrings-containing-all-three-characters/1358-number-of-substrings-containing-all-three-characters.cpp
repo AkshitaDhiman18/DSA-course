@@ -1,26 +1,6 @@
 class Solution {
 public:
     int numberOfSubstrings(string s) {
-        /*vector<char> characters;
-        characters.push_back("a");
-        characters.push_back("b");
-        characters.push_back("c");*/
-
-        //Bruteforce approach
-        /*unordered_map<char, int> mp;
-        int n= s.size();
-        int ans=0;
-        for(int st=0; st<n; st++){
-            mp.clear();
-            for(int end=st; end<n; end++){
-                mp[s[end]]++;
-
-                if(mp.size() >= 3) ans++;  
-            }
-        }  
-        return ans;*/
-
-        //Approach 2:
         //slidig window + hashmap
         int n= s.size();
         int l=0;
