@@ -5,11 +5,11 @@ public:
       //Approach 1: Bruteforce approach
       /*int n= s.size();
       unordered_map<char, int> freq;
-      int max_freq=0;
+      
       int ans=0;
 
       for(int start=0; start<n; start++){
-        freq.clear();
+        freq.clear();    //Isliye har naye start par frequency map reset karte hain.Agar map clear nahi       karenge, toh purani substring ki frequencies nayi substring mein bhi reh jayengi. Isse calculation galat ho jayegi.
         for(int end= start; end<n; end++){
             freq[s[end]]++;
             int max_freq=0;
@@ -21,6 +21,8 @@ public:
 
             if(window_length-max_freq <= k){
                 ans= max(ans, window_length);
+            }else{
+                break;
             }
         }
       }
@@ -28,7 +30,7 @@ public:
       
 
       //Approach 2: Sliding Window with recalculating max_freq
-      /*int n= s.size();
+      int n= s.size();
       int l_ptr=0;
       int max_freq;
       int max_len=0;
@@ -37,6 +39,7 @@ public:
 
       for(int r_ptr=0; r_ptr<n; r_ptr++){
         mp[s[r_ptr]]++;
+        
         max_freq=0;
         for(auto it: mp){
             max_freq= max(max_freq, it.second);
@@ -44,18 +47,22 @@ public:
 
         while((r_ptr-l_ptr+1)-max_freq>k){
             mp[s[l_ptr]]--;
+
+            if(mp[s[l_ptr]] == 0) mp.erase(s[l_ptr]);
+
             max_freq=0;
             for(auto it: mp){
                 max_freq= max(max_freq, it.second);
             }
             l_ptr++;
         }
+        
         max_len= max(max_len, (r_ptr-l_ptr+1));
       }
-      return max_len;*/
+      return max_len;
 
       //Approach 3: Optimal sliding window without recalculating max_freq;
-      int l=0;
+      /*int l=0;
       int n= s.size();
       int max_freq=0;
       int max_len=0;
@@ -75,7 +82,8 @@ public:
 
         max_len= max(max_len, r-l+1);
       }
-      return max_len;
+      return max_len;*/
+
     }
 };
       
