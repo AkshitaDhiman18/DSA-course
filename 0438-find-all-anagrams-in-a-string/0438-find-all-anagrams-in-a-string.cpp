@@ -26,7 +26,7 @@ public:
         }
 
         
-        if(map1 == map2) ans.push_back(st);
+        if((end-st+1) && map1 == map2) ans.push_back(st);
         
        }
        return ans;
