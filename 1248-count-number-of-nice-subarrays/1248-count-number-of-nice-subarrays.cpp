@@ -2,6 +2,7 @@ class Solution {
 public:
     
     int almost_count(vector<int> &nums, int goal){
+        
         if(goal < 0) return 0;
         int n= nums.size();
         int l=0;
