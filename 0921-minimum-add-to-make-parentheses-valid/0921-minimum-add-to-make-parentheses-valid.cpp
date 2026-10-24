@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minAddToMakeValid(string s) {
-
+    //stack based approach
         int n= s.size();
         if(n==0) return 0;
         int minimum_add=0;
