@@ -2,7 +2,7 @@ class Solution {
 public:
     string minRemoveToMakeValid(string s) {
         //2 pass approach
-        int n= s.size();
+        /*int n= s.size();
         int i=0;
         string ans="";
         int open_count=0;
@@ -48,6 +48,43 @@ public:
 
         reverse(final.begin(), final.end());
     
-        return final;
+        return final;*/
+
+        //stack approach
+        int n= s.size();
+        stack<int> st;
+        vector<bool>remove(n,false);
+
+        for(int r=0; r<n; r++){
+            char ch= s[r];
+
+            if(ch == '('){
+                st.push(r);
+
+            }else if(ch == ')'){
+                if(!st.empty()){
+                    st.pop();
+                }else if(st.empty()){
+                    remove[r]= true;
+                }
+            }
+        }
+
+        while(!st.empty()){
+            int index= st.top();
+            remove[index]= true;
+            st.pop();
+        }
+
+        string ans="";
+        for(int i=0; i<n; i++){
+            if(remove[i] == false){
+                ans+=s[i];
+            }
+        }
+
+        return ans;
+
+
     }
 };
