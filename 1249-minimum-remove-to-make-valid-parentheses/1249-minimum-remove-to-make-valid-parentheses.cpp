@@ -1,11 +1,13 @@
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
+        //2 pass approach
         int n= s.size();
         int i=0;
         string ans="";
         int open_count=0;
 
+        //1st pass
         while(i<n){
             char ch= s[i];
 
@@ -25,7 +27,8 @@ public:
         
         string final= "";
         int j=ans.size()-1;
-
+        
+        //2nd pass
         while(j >= 0){
             
             char ch= ans[j];
