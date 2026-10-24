@@ -11,7 +11,7 @@ public:
                 st.push(ch);
             //agr closing bracket mile toh check kro:
             }else{
-                //agr stack empty h toh mt kuch opening ka h hi nh jisko close kre toh return false
+                //agr stack empty h toh mtlb kuch opening ka h hi nh jisko close kre toh return false
                 if(st.empty()) return false;
 
                 char top= st.top();
@@ -26,6 +26,6 @@ public:
 
         if(st.empty()) return true;
 
-        return false;
+        return false; //kyunki agar stack empty nahi hai, toh kuch opening brackets abhi bhi unclosed hain isloye return false as it is not valid paranthesis.
     }
 };
