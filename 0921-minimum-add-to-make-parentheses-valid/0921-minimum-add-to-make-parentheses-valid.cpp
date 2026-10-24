@@ -2,7 +2,7 @@ class Solution {
 public:
     int minAddToMakeValid(string s) {
     //stack based approach
-        int n= s.size();
+        /*int n= s.size();
         if(n==0) return 0;
         int minimum_add=0;
 
@@ -25,7 +25,30 @@ public:
         int size= st.size();
         minimum_add+= size;
 
-        return minimum_add;
+        return minimum_add;*/
+
+        //counting approach
+        int n= s.size();
+        if(n == 0) return 0;
+
+        int open=0;
+        int close=0;
+
+        for(int i=0; i<n; i++){
+            char ch= s[i];
+
+            if(ch == '('){
+                open++;
+            }else{
+                if(open == 0){
+                    close++;
+                }else{
+                    open--;
+                }
+            }
+        }
+
+        return open+close;
   
     }
 };
