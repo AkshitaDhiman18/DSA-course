@@ -57,29 +57,34 @@ public:
 
         for(int r=0; r<n; r++){
             char ch= s[r];
-
+             
+            //agr opening bracket mile toh stack mein index dalo uska
             if(ch == '('){
                 st.push(r);
-
+            
+            //agr closing bracket mile toh
             }else if(ch == ')'){
+                //agr stack empty nh h th uska mtlb h ki stack mein opening brcaket hai match kryo aur pop krwa do jise yeh same opening bracket vpis na use hoye
                 if(!st.empty()){
                     st.pop();
+                //agr empty h stak toh means opening brcaket nh h for current closing bracket so means yhe bracket remove krna h so us index jispe yeh unmatched closing bracket hai vo true krwa do for removal
                 }else if(st.empty()){
                     remove[r]= true;
                 }
             }
         }
-
+        
+        //ab jo bache hue opening bracket h vo uske liye closing bracket nh mila so yeh bhi remove hoyege 
         while(!st.empty()){
             int index= st.top();
             remove[index]= true;
             st.pop();
         }
-
+        //jis index pe false h bs vhi index ki values ko ans mein dalvyo
         string ans="";
         for(int i=0; i<n; i++){
             if(remove[i] == false){
-                ans+=s[i];
+                ans.push_back(s[i]);
             }
         }
 
