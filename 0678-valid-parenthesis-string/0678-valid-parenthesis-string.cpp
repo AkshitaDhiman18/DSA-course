@@ -39,38 +39,45 @@ public:
         stack<int> open_st;
         stack<int> star_st;
         int n= s.size();
-
+        
+        //phase 1:
         for(int i=0; i<n; i++){
             char ch= s[i];
 
-            if(ch == '('){
+            if(ch == '('){  //push index into stack
                 open_st.push(i);
-            }else if(ch == '*'){
+            }else if(ch == '*'){ //push index into stack
                 star_st.push(i);
-            }else if(ch == ')'){
+            }else if(ch == ')'){  //check for match
 
-                if(!open_st.empty()){
+                if(!open_st.empty()){  //agr open_st empty nh hua mtlb opening bracket h match hogya now open bracket ko pop krdo
                     open_st.pop();
-                }else if(open_st.empty()){
-                    if(!star_st.empty()){
+                }else if(open_st.empty()){ //agr empty hai toh 
+                    if(!star_st.empty()){  //dusra option check krege agr star empty nh h toh means * mila isko open bracket smj ke pop krdo
                         star_st.pop();
                     }else{
-                        return false;
+                        return false;  //agr star bhi empty hogya mena kch bhi nh h close ko match krne ke liye toh invalid string return false
                     }
                 }
             }
         }
 
+        //phase 2: 
+        //jb tk dono stack empty nh hote h check kro ki ky * open bracket ke bd hai? 
         while(!open_st.empty() && !star_st.empty()){
+            //agr hn bd mein hai toh dono ko pop krdo kyuki dono match hoge hai as hmne * ko ) mana hai 
             if(open_st.top() < star_st.top()){
                 open_st.pop();
                 star_st.pop();
+                //agr star phele h toh menas invalid h paranthesis return false
             }else{
                 return false;
             }
         }
-
+        
+        //agr still open bracket bach gye h aur star khtm hoge means open bracket ko match krne ke liye kch nh bcha return false
         if(star_st.empty() && !open_st.empty()) return false;
+        //aur agr star bachgye h toh unhe empty string smj lo return true
         return true;
         
     }
