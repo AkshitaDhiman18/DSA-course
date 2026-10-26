@@ -137,6 +137,7 @@
 | [0394-decode-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0678-valid-parenthesis-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0678-valid-parenthesis-string) |
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -150,12 +151,14 @@
 | [0042-trapping-rain-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0042-trapping-rain-water) |
 | [0392-is-subsequence](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0410-split-array-largest-sum) |
+| [0678-valid-parenthesis-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0678-valid-parenthesis-string) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0011-container-with-most-water) |
 | [0179-largest-number](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0179-largest-number) |
 | [0410-split-array-largest-sum](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0410-split-array-largest-sum) |
+| [0678-valid-parenthesis-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Sorting
 |  |
@@ -183,6 +186,7 @@
 | [0445-add-two-numbers-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0844-backspace-string-compare) |
@@ -418,6 +422,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0020-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/AkshitaDhiman18/DSA-course/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Data Stream
 |  |
