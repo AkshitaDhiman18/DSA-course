@@ -36,14 +36,14 @@ public:
 
         ListNode* dummy= new ListNode(0);
         ListNode* prev= head;
-        //ListNode* temp= dummy->next;
-
+       
+//prev ko use node pe leke jau jisse just aage vli node se rotation start hai 
         int i=1;
         while(i < len-rotation){
             prev= prev->next;
             i++;
         }
-
+//forward vo node h jisse rotation start hai 
         ListNode* forward= prev->next;
         prev->next= nullptr;
 
