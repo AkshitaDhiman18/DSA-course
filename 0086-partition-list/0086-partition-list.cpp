@@ -17,40 +17,30 @@ public:
 
         //new pointers creations
         ListNode* dummy= new ListNode(0);
-        ListNode* prev= new ListNode(0);
+        ListNode* dummy1= new ListNode(0);
+        ListNode* prev= dummy;
+        ListNode* prev1= dummy1;
 
-        //pointers setup
-        dummy->next= head;
-        ListNode* point= dummy;
-        ListNode* temp= point->next;
-        ListNode* start= nullptr;
-
-        int i=1;
+        ListNode* temp= head;
 
         while(temp != nullptr){
-            int value;
-            value= temp->val;
+            int value= temp->val;
+            ListNode* forward= temp->next;
 
             if(value < x){
-                ListNode* forward= temp->next;
-                temp->next= nullptr;
-                point->next= temp;
-                point= temp;
-                temp= forward;
-            }else if(value >= x){
-                ListNode* forward1= temp->next;
-                if(i == 1){
-                    start= temp;
-                    i++;
-                }
-
-                temp->next= nullptr;
                 prev->next= temp;
                 prev= temp;
-                temp= forward1;
+            }else{
+                prev1->next= temp;
+                prev1= temp;
             }
+
+             temp->next= nullptr;
+             temp= forward;
         }
-        point->next= start;
+
+        prev->next= dummy1->next;
+
         return dummy->next;
     }
 };
